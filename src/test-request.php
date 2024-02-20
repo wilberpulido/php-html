@@ -14,7 +14,7 @@
   formData.append('nombre','Wilber');
   formData.append('edad','29');
 
-  fetch ("server.php?color=green",{
+  fetch ("server/vardump.php?color=green",{
     body: formData,
     method: "POST"
   })
